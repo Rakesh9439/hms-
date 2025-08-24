@@ -53,12 +53,16 @@ public class PatientController {
             return new ResponseEntity<>("Patient updated successfully", HttpStatus.OK);
           }
 
-
-
+      // gggfghgfgfhghghghgfhghghghfhgh tyuytuyuyjhggjgjgghhgghgjhjhgjhjhjhgj
+    //   gfhfgfngfgfgfjfggfdryehfgnfgngghfbfbf
+    //   dfhdhhdrgesesgseththhdgdgffdgfdhfdfhdffhdhfhffhdde24   6uwe0rpt-[=0-y90`1234567890-';lkjhgtfrdeswaq';.,MNBVCXZ
+         // rturgugugguiguiguiguierugwutuirvgrureuirgueireurruuiruireu hgjjgjfjfgjgjfgjfjfgjjkfg
           @GetMapping("/{id}/getPatientById")
 
           public ResponseEntity<PatientDto> getPatientById(@PathVariable Long id){
-               PatientDto patient = patientService.getPatientById(id);
+              //  patientService.getPatientById(id);
+              PatientDto patient =patientService.getPatientById(id);
+              // patientService.getPatientById(id);
                return new ResponseEntity<>(patient, HttpStatus.OK);
           }
 
