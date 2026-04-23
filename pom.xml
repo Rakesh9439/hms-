@@ -102,7 +102,7 @@
 				</configuration>
 			</plugin>
 
-			<!-- 👇 YAHAN ADD KARNA HAI -->
+			<!-- Maven compiler plugin -->
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-compiler-plugin</artifactId>
